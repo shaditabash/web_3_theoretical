@@ -1,0 +1,112 @@
+body{
+    padding: 10px;
+    background-color: rgb(14, 223, 185);
+    opacity: 0.9;
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(202, 122, 11);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.subject{
+    font-family: sans-serif;
+    font-size:15px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 1.4em;
+    color: rgba(1, 1, 1, 0.7);
+    overflow: hidden;
+
+    
+}
+.list{
+    display: block;
+}
+.list dd{
+    word-spacing: 0.3em;
+    text-indent: 10px;
+    font-size: large;
+}
+.list dd::first-line{ 
+    font-style: oblique;
+    font-size: 18px;
+    font-weight: 400;}
+
+.list .de{
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 5px rgb(29, 75, 90);
+    
+}
+
+form{position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 400px;
+    min-height: 200px;
+    box-shadow: 0 8px 8px rgb(223, 14, 195);
+    margin-left: 36%;
+    margin-top: 50px;
+}.logi{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+form img{
+    margin-left: 50%;
+}
+.list{margin-left: 40px;
+margin-top: 50px;}
+dl{
+    margin-top: 50px;
+}
+input{
+  
+    margin-top: 10px;
+
+}
+input:focus{
+border:4px solid red ;
+}
+button{
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+
+}
+.images{margin-top: 50px;}
+button:hover{
+    margin-top: 10px;
+    margin-left: 40px;
+    background: none;
+    background-color: blueviolet;
+
+}
+.images a:link{
+    color: rgb(37, 37, 251);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.images figure{
+    text-align: center;
+}
+.images a:visited{
+    color: rgb(255, 85, 6);
+    text-decoration: none;
+}.images a:active{
+    color: rgb(243, 9, 169);
+    text-decoration: none;
+}
+.table table{
+margin: 40px auto ;
+width: 1000px;
+}
+.table table tr:hover{
+    background-color: rgb(29, 29, 53);
+    }
